@@ -1,11 +1,17 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 
 public class DatabaseExample {
     public static void main(String[] args) {
+        System.out.println("Dev Jayswal \n0901AM221031");
         // Database connection parameters
         String url = "jdbc:mysql://localhost:3306/mydatabase";
-        String username = "username";
-        String password = "password";
+        String username = "root";
+        String password = "Dev@958988";
 
         // Declare JDBC objects
         Connection connection = null;
